@@ -4536,9 +4536,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Facebook.Acts.LogOut,
+		C3.Plugins.Facebook.Acts.LogIn2,
 		C3.Plugins.Facebook.Cnds.OnNameAvailable,
 		C3.Plugins.Facebook.Exps.FirstName,
-		C3.Plugins.Facebook.Acts.LogIn2,
 		C3.Plugins.Facebook.Cnds.OnLogIn,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Acts.ResetGlobals,
@@ -4752,7 +4752,8 @@ self.C3_JsPropNameTable = [
 	{weapon: 0},
 	{music: 0},
 	{playerName: 0},
-	{signIn: 0}
+	{signIn: 0},
+	{loggedin: 0}
 ];
 }
 
