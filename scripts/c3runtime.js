@@ -4537,9 +4537,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Facebook.Acts.LogOut,
 		C3.Plugins.Facebook.Acts.LogIn2,
-		C3.Plugins.Facebook.Cnds.OnNameAvailable,
 		C3.Plugins.Facebook.Exps.FirstName,
-		C3.Plugins.Facebook.Cnds.OnLogIn,
+		C3.Plugins.Facebook.Acts.PromptWallPost,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.System.Cnds.TriggerOnce,
@@ -4752,8 +4751,7 @@ self.C3_JsPropNameTable = [
 	{weapon: 0},
 	{music: 0},
 	{playerName: 0},
-	{signIn: 0},
-	{loggedin: 0}
+	{signIn: 0}
 ];
 }
 
@@ -5052,8 +5050,8 @@ self.C3_ExpressionFuncs = [
 		() => 58,
 		() => 48,
 		() => 1793,
-		() => -10,
 		() => "public_profile",
+		() => -10,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
