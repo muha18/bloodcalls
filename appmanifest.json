@@ -1,0 +1,10 @@
+{
+	"name": "BloodCalls",
+	"short_name": "BloodCalls",
+	"description": "bloodcalls",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": []
+}
