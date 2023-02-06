@@ -4538,6 +4538,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Facebook.Acts.LogIn2,
 		C3.Plugins.Facebook.Exps.FirstName,
+		C3.Plugins.Facebook.Cnds.OnNameAvailable,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.System.Cnds.TriggerOnce,
