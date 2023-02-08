@@ -4537,7 +4537,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Facebook.Acts.LogOut,
 		C3.Plugins.Facebook.Acts.LogIn2,
-		C3.Plugins.Facebook.Cnds.OnLogIn,
 		C3.Plugins.Facebook.Cnds.OnNameAvailable,
 		C3.Plugins.Facebook.Exps.FirstName,
 		C3.Plugins.System.Acts.GoToLayoutByName,
@@ -5052,8 +5051,8 @@ self.C3_ExpressionFuncs = [
 		() => 58,
 		() => 48,
 		() => 1793,
-		() => "public_profile",
 		() => -10,
+		() => "public_profile",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
